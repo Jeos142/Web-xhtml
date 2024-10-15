@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ROBO SCHOOL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="overlay"></div>
+<main class="main">
+        <section class="intro">
+
+                <header class="header">
+                    <div >
+                        <div class="header-wrapper">
+                            <p class="logo"> ROBO.SCHOOL</p>
+                            <nav>
+                                <ul class="header-list">
+                                    <li class="header-item">
+                                        <a class="header-link">О школе </a>
+                                    </li>
+                                    <li class="header-item">
+                                        <a  class="header-link">Тренеры </a>
+                                    </li>
+                                    <li class="header-item">
+                                        <a  class="header-link">Стоимость </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+
+            <div class="wrapper intro-container">
+
+
+                <div class="intro-left">
+                    <h1 class="intro-title"> ROBO SCHOOL</h1>
+                    <p class="intro-subtitle"> Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+                    <button class="sign-up">Записаться на курс </button>
+                </div>
+                <div class="intro-right">
+                    <img class="intro-img" src="Group 211.png" alt="girl.img">
+                </div>
+            </div>
+        </section>
+        <section class="school-stats">
+            <div class="wrapper">
+                <p class="stats-title"> <span class="stats-title-span">Robo School</span> – учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования </p>
+                <ul class="stats-ul">
+                    <li>
+                        <p class="stats-number">10</p>
+                        <p class="stats-subtitle"> УМК по различным направлениям по робототехнике</p>
+                    </li>
+                    <li>
+                        <p class="stats-number">20</p>
+                        <p class="stats-subtitle">Школ, в которых запущена робототехника</p>
+                    </li>
+                    <li>
+                        <p class="stats-number">100</p>
+                        <p class="stats-subtitle"> Педагогов прошедших курсы повышения квалификации</p>
+                    </li>
+                    <li>
+                        <p class="stats-number">10 000</p>
+                        <p class="stats-subtitle"> Обученных детей на базе собственных центров</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="wrapper">
+                <h2 class="benefits-title"> Что вы получите после курса</h2>
+                <ul class="benefits-ul">
+                    <li>
+                        <p class="benefits-subtitle">Удостоверение </p>
+                        <p class="benefits-paragraph"> Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</p>
+                    </li>
+                    <li>
+                        <p class="benefits-subtitle"> Знания</p>
+                        <p class="benefits-paragraph">По основам разработки учебно-методических комплексов
+                            по робототехнике и программированию </p>
+                    </li>
+                    <li>
+                        <p class="benefits-subtitle"> Практику</p>
+                        <p class="benefits-paragraph">Возможность пройти практику  по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате) </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="teachers">
+            <div class="wrapper">
+                <h1 class="teachers-title">Профессиональные тренеры</h1>
+                <ul class="teachers-ul">
+                    <li>
+                        <img class="teachers-pfp" src="img1.jpg">
+                        <p class="teachers-name">Ирина Лайм</p>
+                        <p class="teacher-job"> преподаватель по робототехнике</p>
+                        <button class="teachers-more-info" id="btnIrina">Подробнее</button>
+                    </li>
+                    <li>
+                        <img class="teachers-pfp" src="img2.jpg">
+                        <p class="teachers-name">Марина Орлова</p>
+                        <p class="teacher-job"> преподаватель по робототехнике</p>
+                        <button class="teachers-more-info" id="btnMarina">Подробнее</button>
+                    </li>
+                    <li>
+                        <img class="teachers-pfp" src="img3.jpg">
+                        <p class="teachers-name">Максим Петров</p>
+                        <p class="teacher-job"> преподаватель по программированию</p>
+                        <button class="teachers-more-info" id="btnMaxim">Подробнее</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="teachers-modal" id="modal1">
+                <div class="modal-container">
+                    <div class="modal-content">
+                        <div class="modal-top">
+                            <img class="modal-img" src="img1.jpg" alt="teacher-pfp">
+                            <div class="modal-top-content">
+                                <h3 class="modal-title"> Ирина лайм</h3>
+                                <p class="modal-top-description">преподователь по робототехнике</p>
+                            </div>
+                            <button class="cls-btn" id="cls-btn1">Закрыть</button>
+                        </div>
+                        <div class="modal-tabs">
+                            <button class="tabs-nav-bnt ">О преподователе</button>
+                            <div class="tabs-content">
+                                <div class="tab1 ">
+                                    <h3 class="tabs-title">Образование</h3>
+                                    <p class="tabs-descr">
+                                        Сентябрь 1995&nbsp;—Июнь 2000
+                                        <br>
+                                        Санкт-Петербургский политех нический университет Петра Великого
+                                        <br>
+                                        Факультет: Компьютерных наук и&nbsp;технологий
+                                        <br>
+                                        Специальность: Математика и&nbsp;компьютерные науки
+                                        <br>
+                                        Форма обучения: Очная
+                                    </p>
+                                    <h3 class="tabs-title">Курсы и треннинги</h3>
+                                    <p class="tabs-descr">
+                                        Ноябрь 2020&nbsp;— Февраль 2021
+                                        <br>
+                                        Программа дополнительного образования «3D Моделирование»
+                                        <br>
+                                        Место проведения: Институт дополнительного образования «Политех»
+                                    </p>
+                                    <h3 class="tabs-title">Опыт работы</h3>
+                                    <p class="tabs-descr">
+                                        Сентябрь 2000 - Июнь 2021
+                                        <br>
+                                        Санкт-Петербургский политех нический университет Петра Великого
+                                        <br>
+                                        Должность: преподователь по робототехнике
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="teachers-modal" id="modal2">
+                <div class="modal-container">
+                    <div class="modal-content">
+                        <div class="modal-top">
+                            <img class="modal-img" src="img2.jpg" alt="teacher-pfp">
+                            <div class="modal-top-content">
+                                <h3 class="modal-title"> Марина Орлова</h3>
+                                <p class="modal-top-description">преподователь по робототехнике</p>
+                            </div>
+                            <button class="cls-btn" id="cls-btn2">Закрыть</button>
+                        </div>
+                        <div class="modal-tabs">
+                            <button class="tabs-nav-bnt ">О преподователе</button>
+                            <div class="tabs-content">
+                                <div class="tab2 ">
+                                    <h3 class="tabs-title">Образование</h3>
+                                    <p class="tabs-descr">
+                                        Сентябрь 1995&nbsp;—Июнь 2000
+                                        <br>
+                                        Санкт-Петербургский политех нический университет Петра Великого
+                                        <br>
+                                        Факультет: Компьютерных наук и&nbsp;технологий
+                                        <br>
+                                        Специальность: Математика и&nbsp;компьютерные науки
+                                        <br>
+                                        Форма обучения: Очная
+                                    </p>
+                                    <h3 class="tabs-title">Курсы и треннинги</h3>
+                                    <p class="tabs-descr">
+                                        Ноябрь 2020&nbsp;— Февраль 2021
+                                        <br>
+                                        Программа дополнительного образования «3D Моделирование»
+                                        <br>
+                                        Место проведения: Институт дополнительного образования «Политех»
+                                    </p>
+                                    <h3 class="tabs-title">Опыт работы</h3>
+                                    <p class="tabs-descr">
+                                        Сентябрь 2000 - Июнь 2021
+                                        <br>
+                                        Санкт-Петербургский политех нический университет Петра Великого
+                                        <br>
+                                        Должность: преподователь по робототехнике
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="teachers-modal" id="modal3">
+                <div class="modal-container">
+                    <div class="modal-content">
+                        <div class="modal-top">
+                            <img class="modal-img" src="img3.jpg" alt="teacher-pfp">
+                            <div class="modal-top-content">
+                                <h3 class="modal-title"> Максим Петров</h3>
+                                <p class="modal-top-description">преподователь по программированию</p>
+                            </div>
+                            <button class="cls-btn" id="cls-btn3">Закрыть</button>
+                        </div>
+                        <div class="modal-tabs">
+                            <button class="tabs-nav-bnt ">О преподователе</button>
+                            <div class="tabs-content">
+                                <div class="tab3 ">
+                                    <h3 class="tabs-title">Образование</h3>
+                                    <p class="tabs-descr">
+                                        Сентябрь 1995&nbsp;—Июнь 2000
+                                        <br>
+                                        Санкт-Петербургский политех нический университет Петра Великого
+                                        <br>
+                                        Факультет: Компьютерных наук и&nbsp;технологий
+                                        <br>
+                                        Специальность: Математика и&nbsp;компьютерные науки
+                                        <br>
+                                        Форма обучения: Очная
+                                    </p>
+                                    <h3 class="tabs-title">Курсы и треннинги</h3>
+                                    <p class="tabs-descr">
+                                        Ноябрь 2020&nbsp;— Февраль 2021
+                                        <br>
+                                        Программа дополнительного образования «3D Моделирование»
+                                        <br>
+                                        Место проведения: Институт дополнительного образования «Политех»
+                                    </p>
+                                    <h3 class="tabs-title">Опыт работы</h3>
+                                    <p class="tabs-descr">
+                                        Сентябрь 2000 - Июнь 2021
+                                        <br>
+                                        Санкт-Петербургский политех нический университет Петра Великого
+                                        <br>
+                                        Должность: преподователь по робототехнике
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="packets">
+            <div class="wrapper">
+                <h2 class="packets-title">Выберите нужный пакет</h2>
+                <ul class="packets-ul">
+                    <li>
+                        <article class="packets-button-environment">
+                            <div class="">
+                                <h3 class="packets-name">– PRO –</h3>
+                                <p class="packets-price">20.000 Р</p>
+                                <p class="packets-description">Полный пакет УМК</p>
+                                <button class="packets-button">Оставить заявку</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="packets-button-environment">
+                            <div class="">
+                                <h3 class="packets-name">– ROBO –</h3>
+                                <p class="packets-price">15.000 P</p>
+                                <p class="packets-description">УМК по робототетхнике </p>
+                                <button class="packets-button">Оставить заявку</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="packets-button-environment">
+                            <div class="">
+                                <h3 class="packets-name">– PROG –</h3>
+                                <p class="packets-price">10.000 P</p>
+                                <p class="packets-description">УМК по программированию</p>
+                                <button class="packets-button">Оставить заявку</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="forms">
+            <div class="forms-wrapper">
+
+                <div class="forms-container">
+                    <div class="forms-text">
+                        <h2 class="forms-title">Запишитесь на курс cо скидкой 10%</h2>
+                        <p class="forms-subtitle">Акция действительна до 10 марта 2025 года</p>
+                    </div>
+
+                <form class="forms-form" action=" " method="post">
+                    <label>
+                        <input class="forms-input" name="name" type="text" placeholder="Имя">
+                    </label>
+                    <label>
+                        <input class="forms-input" name="tel" type="tel" placeholder="Телефон">
+                    </label>
+                    <label>
+                        <input class="forms-input" name="email" type="email" placeholder="E-mail">
+                    </label>
+                    <button class="forms-button">Оформить заявку</button>
+                </form>
+                </div>
+            </div>
+        </section>
+</main>
+<footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <h2 class="footer-title">ROBO.SCHOOL</h2>
+            <h2 class="footer-phone">+7 800 000 11 22 </h2>
+        </div>
+         <p class="footer-subtitle">© ROBO.SCHOOL</p>
+    </div>
+</footer>
+<script>
+    const modal1=document.getElementById("modal1");
+    const modal2=document.getElementById("modal2");
+    const modal3=document.getElementById("modal3");
+    const overlay = document.getElementById("overlay");
+    const clsBtn1=document.getElementById("cls-btn1");
+    const clsBtn2=document.getElementById("cls-btn2");
+    const clsBtn3=document.getElementById("cls-btn3");
+    const btnIrina=document.getElementById("btnIrina");
+    const btnMarina=document.getElementById("btnMarina");
+    const btnMaxim=document.getElementById("btnMaxim");
+    btnIrina.addEventListener("click", ()=> {
+        modal1.style.display="block";
+        overlay.classList.add("show");
+    })
+    clsBtn1.addEventListener("click", ()=> {
+        modal1.style.display="none";
+        overlay.classList.remove("show");
+    })
+    btnMarina.addEventListener("click", ()=> {
+        modal2.style.display="block";
+        overlay.classList.add("show");
+    })
+    clsBtn2.addEventListener("click", ()=> {
+        modal2.style.display="none";
+        overlay.classList.remove("show");
+    })
+    btnMaxim.addEventListener("click", ()=> {
+        modal3.style.display="block";
+        overlay.classList.add("show");
+    })
+    clsBtn3.addEventListener("click", ()=> {
+        modal3.style.display="none";
+        overlay.classList.remove("show");
+    })
+</script>
+</body>
+</html>
